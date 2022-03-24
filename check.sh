@@ -2914,48 +2914,11 @@ function CheckV6() {
 function Goodbye() {
 
 	if [[ "$language" == "e" ]]; then
-		echo -e "${Font_Green}Testing Done! Thanks for Using This Script! ${Font_Suffix}"
-		echo -e ""
-		echo -e "${Font_Yellow}Number of Script Runs for Today: ${TodayRunTimes}; Total Number of Script Runs: ${TotalRunTimes} ${Font_Suffix}"
-		echo -e ""
-		echo -e "========================================================="
-		echo -e "${Font_Red}If you found this script helpful, you can but me a coffee${Font_Suffix}"
-		echo -e ""
-		echo -e "LTC: LQD4S6Y5bu3bHX6hx8ASsGHVfaqFGFNTbx"
-		echo -e "========================================================="
+		echo -e "${Font_Green}Testing Done! Thanks for Using! ${Font_Suffix}"
+		
 	else
-		echo -e "${Font_Green}本次测试已结束，感谢使用此脚本 ${Font_Suffix}"
-		echo -e ""
-		echo -e "${Font_Yellow}检测脚本当天运行次数: ${TodayRunTimes}; 共计运行次数: ${TotalRunTimes} ${Font_Suffix}"
-		echo -e ""
-		echo -e "${Font_Red}[广告时间]${Font_Suffix}"
-		echo -e "================================================"
-		echo -e "${Font_Yellow}半月灣美國洛杉磯 聯通1Gbps的Premium 9929:${Font_Suffix}"
-		echo ""
-		echo -e "${Font_SkyBlue}✅ 聯通版的瓦工 GIA
-✅ 美國原生 IP
-✅ 支持rDNS
-✅ 72小時退款保證 ${Font_Suffix}"
-		echo ""
-		echo -e "${Font_Green}Looking Glass: http://lg.dc5-9929.hmbcloud.net/${Font_Suffix}"
-		echo ""
-		echo ""
-		echo -e "${Font_Purple}\$69.99/年起${Font_Suffix}"
-		echo ""
-		echo -e "${Font_Red}下單鏈接:${Font_Suffix} https://hmbcloud.com/aff.php?aff=473&gid=32"
-		echo -e "${Font_SkyBlue}    __  ____  _______  ________   ____  __  ______ ${Font_Suffix}"
-		echo -e "${Font_SkyBlue}   / / / /  |/  / __ )/ ____/ /  / __ \/ / / / __ \ ${Font_Suffix}"
-		echo -e "${Font_SkyBlue}  / /_/ / /|_/ / __  / /   / /  / / / / / / / / / /${Font_Suffix}"
-		echo -e "${Font_SkyBlue} / __  / /  / / /_/ / /___/ /__/ /_/ / /_/ / /_/ / ${Font_Suffix}"
-		echo -e "${Font_SkyBlue}/_/ /_/_/  /_/_____/\____/_____\____/\____/_____/ ${Font_Suffix}"
-		echo -e "================================================"
-		echo -e ""
-		echo -e ""
-		echo -e ""
-		echo -e ""
-		echo -e "${Font_Yellow}由于大部分 IP 的 Tiktok 检测时间过长，已将该检测移除出脚本${Font_Suffix}"
-		echo -e "${Font_Yellow}需要检测 Tiktok 区域请移步项目: https://github.com/lmc999/TikTokCheck${Font_Suffix}"
-
+		echo -e "${Font_Green}本次测试已结束，感谢使用 ${Font_Suffix}"
+		
 	fi
 }
 
@@ -2974,8 +2937,7 @@ function ScriptTitle() {
 	else
 		echo -e " [流媒体平台及游戏区域限制测试]"
 		echo ""
-		echo -e "${Font_Green}项目地址${Font_Suffix} ${Font_Yellow}https://github.com/lmc999/RegionRestrictionCheck ${Font_Suffix}"
-		echo -e "${Font_Green}BUG反馈或使用交流可加TG群组${Font_Suffix} ${Font_Yellow}https://t.me/gameaccelerate ${Font_Suffix}"
+		
 		echo -e "${Font_Purple}脚本适配OS: CentOS 6+, Ubuntu 14.04+, Debian 8+, MacOS, Android (Termux), iOS (iSH)${Font_Suffix}"
 		echo ""
 		echo -e " ** 测试时间: $(date)"
