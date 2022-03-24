@@ -3097,7 +3097,7 @@ function RunScript() {
 			if [[ "$isv6" -eq 1 ]]; then
 				Global_UnlockTest 6
 			fi
-			Goodbye
+			#Goodbye
 
 		elif [[ "$num" -eq 69 ]]; then
 			clear
